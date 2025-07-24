@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-
+@State var differentScreen = true
     var body: some View {
             HStack(spacing: 10) {
                 Text("Title").font(.largeTitle)
@@ -18,9 +18,22 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .foregroundColor(.red)
                 Spacer()
-                    
+                Button(action: {
+                    differentScreen.toggle()
+                }, label: {
+                    Text("Click Me")
+                        .frame(width: 150, height: 50)
+                        .foregroundColor(.white)
+                        .bold()
+                        .background(.blue)
+                })
+                .cornerRadius(10)
+                Spacer()
             }
         Spacer()
+        
+        
+       
     }
 }
 
