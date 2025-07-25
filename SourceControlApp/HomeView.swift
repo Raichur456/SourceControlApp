@@ -22,6 +22,9 @@ struct HomeView: View {
             .padding()
         Text("Circle Right Now")
     }
+    
+            // send analytics
+        
 }
 
 #Preview {
