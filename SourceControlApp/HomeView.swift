@@ -20,6 +20,7 @@ struct HomeView: View {
         }
         Spacer()
             .padding()
+        Text("Circle Right Now")
     }
 }
 
