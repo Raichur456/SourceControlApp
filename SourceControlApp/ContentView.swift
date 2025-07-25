@@ -4,6 +4,20 @@
 //
 //  Created by Gururaj Krishna on 7/24/25.
 //
+/*
+ Commit Messages:
+ 
+ NEW FEATURE: Description of the feature
+ 
+ Bug In Production: Description of the patch
+ 
+ Bug Not In Production: Description of the bug
+ 
+ Mundane Tasks: Description of changes
+ 
+ Release: Description of release
+ 
+ */
 
 import SwiftUI
 import SwiftData
