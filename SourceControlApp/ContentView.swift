@@ -5,6 +5,11 @@
 //  Created by Gururaj Krishna on 7/24/25.
 //
 /*
+ Clone= Copying the repo locally
+ Commit= saving the changes
+ Stash = save changes for later
+ Push = send local commits to remote repo
+ Pull = Fetch remote commits to local repos
  Commit Messages:
  
  NEW FEATURE: Description of the feature
@@ -47,7 +52,7 @@ struct ContentView: View {
             }
         Spacer()
         differentScreen ? rectangle: nil
-        
+        Circle()
        
     }
 }
