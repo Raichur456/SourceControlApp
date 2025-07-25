@@ -29,7 +29,10 @@ import SwiftData
 
 struct ContentView: View {
 @State var differentScreen = true
-    var rectangle = Rectangle()
+    let rectangle = Rectangle().fill(Color.red)
+    let circle = Circle().fill(Color.blue)
+
+
     var body: some View {
             HStack(spacing: 10) {
                 Text("Title").font(.largeTitle)
@@ -40,6 +43,7 @@ struct ContentView: View {
                 Spacer()
                 Button(action: {
                     differentScreen.toggle()
+                    
                 }, label: {
                     Text("Click Me")
                         .frame(width: 150, height: 50)
@@ -50,9 +54,10 @@ struct ContentView: View {
                 .cornerRadius(10)
                 Spacer()
             }
+        
+        differentScreen ? AnyView(Rectangle().fill(Color.red)): AnyView(Circle().fill(Color.blue))
         Spacer()
-        differentScreen ? rectangle: nil
-        Circle()
+        
        
     }
 }
