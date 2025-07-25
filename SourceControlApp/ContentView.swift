@@ -57,7 +57,7 @@ struct ContentView: View {
         
         differentScreen ? AnyView(Rectangle().fill(Color.red)): AnyView(Circle().fill(Color.blue))
         Spacer()
-        Text("Whats UP")
+        
        
     }
 }
