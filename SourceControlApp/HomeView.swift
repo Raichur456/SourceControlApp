@@ -9,9 +9,17 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Screen Two!")
-        Text("Screen Two!")
+        HStack {
+            VStack {
+                Text("Screen Two!")
+                
+                Text("Screen Two!")
+                Text("Final Screen Right Now")
+            }
             Circle()
+        }
+        Spacer()
+            .padding()
     }
 }
 
