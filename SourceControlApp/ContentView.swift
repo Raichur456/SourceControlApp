@@ -24,6 +24,7 @@ import SwiftData
 
 struct ContentView: View {
 @State var differentScreen = true
+    var rectangle = Rectangle()
     var body: some View {
             HStack(spacing: 10) {
                 Text("Title").font(.largeTitle)
@@ -45,7 +46,7 @@ struct ContentView: View {
                 Spacer()
             }
         Spacer()
-        
+        differentScreen ? rectangle: nil
         
        
     }
