@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct Testing: some View {
+struct Testing:  View {
   @State var rectangleAppears: Bool = true 
   var body: some View {
     Button(action: {
