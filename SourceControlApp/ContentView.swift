@@ -37,7 +37,7 @@ struct ContentView: View {
             HStack(spacing: 10) {
                 Text("Title").font(.largeTitle)
                     .padding()
-                Image(systemName: "heart.fill")
+                Image(systemName: "bolt.fill")
                     .font(.largeTitle)
                     .foregroundColor(.red)
                 Spacer()
