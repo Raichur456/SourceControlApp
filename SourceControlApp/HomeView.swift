@@ -12,8 +12,7 @@ struct HomeView: View {
         HStack {
             VStack {
                 Text("Screen Two!")
-                
-                Text("Screen Two!")
+    
                 Text("Final Screen Right Now")
             }
             Circle()
