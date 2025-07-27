@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var changes = false
     var body: some View {
         HStack {
             VStack {
@@ -21,8 +22,13 @@ struct HomeView: View {
         Spacer()
             .padding()
         Text("Circle Right Now")
+        
+        Button(action: {
+            changes.toggle()
+        }) {
+            Text("Button")
+        }
     }
-    
             // send analytics
         
 }
