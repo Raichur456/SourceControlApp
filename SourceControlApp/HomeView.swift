@@ -14,6 +14,7 @@ struct HomeView: View {
                 Text("Screen Two!")
     
                 Text("Final Screen Right Now")
+                Text("☺️")
             }
             Circle()
         }
