@@ -10,6 +10,9 @@
  Stash = save changes for later
  Push = send local commits to remote repo
  Pull = Fetch remote commits to local repos
+ Merge = Joining two different branches
+ Rebase = Moving one branch on top of another branch
+ Cherry picking = Duplicating (copying) one commit from one branch to another.
  Commit Messages:
  
  NEW FEATURE: Description of the feature
@@ -50,7 +53,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .bold()
                         .background(.blue)
-                })
+                }) 
                 .cornerRadius(10)
                 Spacer()
             }
