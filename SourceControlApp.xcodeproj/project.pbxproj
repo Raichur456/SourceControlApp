@@ -146,6 +146,8 @@
 				CODE_SIGN_ENTITLEMENTS = SourceControlApp/SourceControlApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
+=======
+				CURRENT_PROJECT_VERSION = 4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SourceControlApp/Info.plist;
@@ -159,6 +161,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2.1;
+
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gururajaudiorecording.SourceControlApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -175,6 +179,8 @@
 				CODE_SIGN_ENTITLEMENTS = SourceControlApp/SourceControlApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
+
+				CURRENT_PROJECT_VERSION = 4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SourceControlApp/Info.plist;
@@ -188,6 +194,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2.1;
+
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gururajaudiorecording.SourceControlApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -8,7 +8,19 @@
 import SwiftUI
 
 struct ProfileView: View {
+
     @State var isChanged: Bool = false
+
+    @State var isChanged: Bool = true
+
+    
+    var body: some View {
+        VStack {
+            ForEach(0..<3, id: \.self) { index in
+                HStack {
+                    Text("Heart Emoji")
+
+
     var body: some View {
             ForEach(0..<3, id: \.self) { index in
                 HStack {
@@ -20,6 +32,13 @@ struct ProfileView: View {
                 .font(.largeTitle)
                 .padding()
             }
+
+            Spacer()
+        }
+        .onAppear {
+            // Analytics
+        }
+
                 Spacer()
     }
 }
@@ -27,3 +46,5 @@ struct ProfileView: View {
 #Preview {
     ProfileView()
 }
+
+
