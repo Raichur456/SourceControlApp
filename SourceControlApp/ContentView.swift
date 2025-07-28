@@ -27,6 +27,11 @@
  Mundane Tasks: Description of changes
  
  Release: Description of release
+ Protecting Branches
+ CodeOwners
+ GitIgnore
+ ReadMe
+ Releases
  
  */
 
