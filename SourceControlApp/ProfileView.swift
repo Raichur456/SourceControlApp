@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ProfileView: View {
+
+    @State var isChanged: Bool = false
+
     @State var isChanged: Bool = true
 
     
@@ -16,6 +19,7 @@ struct ProfileView: View {
             ForEach(0..<3, id: \.self) { index in
                 HStack {
                     Text("Heart Emoji")
+
 
     var body: some View {
             ForEach(0..<3, id: \.self) { index in

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SettingView: View {
-    @State var rise = true
+    @State var rise = false
     @State var fall = false
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
