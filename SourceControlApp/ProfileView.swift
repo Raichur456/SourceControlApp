@@ -21,6 +21,8 @@ struct ProfileView: View {
                 .padding()
             }
                 Spacer()
+            .onAppear()
+        //Analytics
     }
 }
 
