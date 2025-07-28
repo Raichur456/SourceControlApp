@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @State var isChanged: Bool = true
+    @State var isChanged: Bool = false
     var body: some View {
             ForEach(0..<3, id: \.self) { index in
                 HStack {
