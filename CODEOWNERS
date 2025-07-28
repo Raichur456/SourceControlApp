@@ -1,0 +1,7 @@
+# Owner for everything
+* @Raichur456
+
+# Or more specific
+/docs/ @Raichur456
+/src/ @Raichur456
+*.js @Raichur456
