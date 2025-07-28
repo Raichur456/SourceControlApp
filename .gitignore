@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+dist/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env/
+.venv/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+target/
+
+# Xcode / Swift
+*.xcworkspace
+*.xcodeproj
+DerivedData/
+build/
+*.swiftpm
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# System
+Thumbs.db
+ehthumbs.db
